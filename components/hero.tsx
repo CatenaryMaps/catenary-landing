@@ -41,45 +41,14 @@ export default function Hero() {
                     </svg>
                 </div>
 
-                {/* Hero content */}
-                <div className="relative pt-32 pb-12 md:pt-40 md:pb-16">
-                    {/* Section header */}
-                    <div className="max-w-3xl mx-auto text-center tpb-12 pb-16">
-                        <h1 className="h1 mb-4" data-aos="fade-up">
-                            Powerful transit data and algorithms—
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">
-                                all in realtime
-                            </span>
-                        </h1>
-                        <p
-                            className="md:text-xl text-muted-foreground mb-8"
-                            data-aos="fade-up"
-                            data-aos-delay="200"
-                        >
-                            Catenary Maps is an ad-free, open-source tool for seamless public
-                            transport navigation. Using real-time data and innovative algorithms, we
-                            streamline your transit experience. Navigate public transport smarter
-                            and smoother with us!
-                        </p>
-                        <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-                            <div data-aos="fade-up" data-aos-delay="400">
-                                <a
-                                    className="btn text-white bg-primary hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0"
-                                    href="https://maps.catenarymaps.org/"
-                                >
-                                    Launch Catenary Maps
-                                </a>
-                            </div>
-                            <div data-aos="fade-up" data-aos-delay="600">
-                                <a
-                                    className="btn text-foreground bg-secondary hover:bg-tertiary w-full sm:w-auto sm:ml-4"
-                                    href="https://discord.gg/bBeDhrzSgz"
-                                >
-                                    Join our Discord
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div className='relative mt-28'>
+                    <h1 className="h1 mb-4">
+                        Catenary helps
+                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">
+                            &nbsp;connect<br />
+                        </span>
+                        people and communities.
+                    </h1>
 
                     {/* TODO: Make ModalVideo autoplay */}
                     <Video
@@ -88,6 +57,34 @@ export default function Hero() {
                         videoWidth={1920}
                         videoHeight={1080}
                     />
+                </div>
+                {/* Section header */}
+                <div className="relative max-w-3xl mx-auto text-center pt-16 pb-16">
+                    <p
+                        className="text-2xl"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                    >
+                        Catenary is a student-led non-profit organization at the cutting edge of transit and routing research. We explore and innovate ways to help people navigate the world around them - by providing accurate realtime data in a user-friendly, accessible format.
+                    </p>
+                    <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center pt-8">
+                        <div data-aos="fade-up" data-aos-delay="400">
+                            <a
+                                className="btn text-white bg-primary hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0"
+                                href="https://maps.catenarymaps.org/"
+                            >
+                                Launch Catenary Maps
+                            </a>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a
+                                className="btn text-foreground bg-secondary hover:bg-tertiary w-full sm:w-auto sm:ml-4"
+                                href="https://discord.gg/bBeDhrzSgz"
+                            >
+                                Join our Discord
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

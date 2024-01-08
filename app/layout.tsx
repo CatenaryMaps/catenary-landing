@@ -48,7 +48,7 @@ const seoKeywords = [
 ]
 
 const siteMetadata = {
-    title: 'Catenary Maps',
+    title: 'Catenary',
     description:
         "We're a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.",
     icon: '/images/favicon.svg',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
         url: './',
         type: 'website',
         locale: 'en_US',
-        siteName: 'Catenary Maps',
+        siteName: 'Catenary',
     },
     twitter: {
         title: siteMetadata.title,

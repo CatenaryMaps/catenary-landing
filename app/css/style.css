@@ -6,8 +6,7 @@
 @import 'additional-styles/range-slider.css';
 @import 'additional-styles/toggle-switch.css';
 @import 'additional-styles/theme.css';
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import 'tailwindcss/utilities';
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
@@ -18,7 +17,7 @@
 }
 
 * {
-    font-family: 'Atkinson Hyperlegible' !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */

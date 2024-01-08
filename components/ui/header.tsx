@@ -47,7 +47,7 @@ export default function Header() {
                                     height={30}
                                     style={{ display: 'none', marginRight: '16px' }}
                                 />
-                                Catenary Maps
+                                Catenary
                             </span>
                         </a>
                     </div>
@@ -60,7 +60,7 @@ export default function Header() {
                                     href="https://maps.catenarymaps.org"
                                     className="btn-sm text-foreground bg-secondary hover:bg-tertiary ml-4"
                                 >
-                                    <span>Launch </span>
+                                    <span>Launch Maps</span>
                                     <svg
                                         className="w-3 h-3 fill-current text-muted-foreground shrink-0 ml-2 -mr-1"
                                         viewBox="0 0 12 12"

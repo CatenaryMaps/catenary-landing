@@ -45,23 +45,20 @@ export default function MaintainersList() {
                                 <span className="ml-1 text-muted-foreground text-xs">
                                     {person.pronouns}
                                 </span>
+                                {person.title && <span className={`font-black text-center m-[1px] ${
+                                                person.title.startsWith('Board') ? 'text-yellow-500' : ''
+                                            } ${
+                                                person.title == 'Executive Director'
+                                                    ? 'text-red-500 dark:text-red-300'
+                                                    : ''
+                                            }`}>{person.title}</span>}
                                 <span className="text-center mb-2">{person.school}</span>
                                 <span className="mb-2 flex flex-wrap items-center justify-center">
                                     {person.titles.map((role, idx) => (
                                         <Badge
                                             key={idx}
                                             variant="outline"
-                                            className={`!font-normal m-[1px] ${
-                                                role == 'Catenary Board' ? 'text-yellow-500' : ''
-                                            } ${
-                                                role == 'Director'
-                                                    ? 'text-blue-400 dark:text-blue-300'
-                                                    : ''
-                                            } ${
-                                                role == 'Executive Director'
-                                                    ? 'text-purple-500 dark:text-purple-300'
-                                                    : ''
-                                            }`}
+                                            className='!font-normal m-[1px]'
                                         >
                                             {role}
                                         </Badge>
