@@ -52,7 +52,7 @@ export const maintainers: Person[] = [
         school: 'Santa Monica College & Don Bosco Technical Institute, Rosemead',
         src: 'https://github.com/lolpro11.png',
         link: 'https://github.com/lolpro11',
-        titles: ['Director', 'Sysadmin', 'Systems Programmer', 'Algorithms'],
+        titles: ['Director', 'Sysadmin', 'Systems Programmer', 'Algorithms', 'Embedded'],
     },
     {
         name: 'Samuel Sharp',
@@ -77,6 +77,22 @@ export const maintainers: Person[] = [
         src: 'https://github.com/catenarymaps.png',
         link: '#',
         titles: ['Frontend/Web', 'UX/UI', 'Design'],
+    },
+    {
+        name: 'Chelsea Wen',
+        pronouns: 'she/her',
+        school: 'University of California, Irvine',
+        src: 'https://github.com/chelseaw2525.png',
+        link: 'https://github.com/chelseaw2525',
+        titles: ['Algorithms', 'Embedded'],
+    },
+    {
+        name: 'Jaiveer Gahunia',
+        pronouns: 'he/him',
+        school: 'University of California, Irvine',
+        src: '/images/callmejai.png',
+        link: 'https://github.com/callmejai',
+        titles: ['Algorithms', 'Embedded'],
     },
     {
         name: 'Andrew Bustos',
